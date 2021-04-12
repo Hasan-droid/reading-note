@@ -14,5 +14,6 @@
 ### the growth mindset keeps improve itself
 
 2 fixed mindests
+
 ![fixed mindset image](https://miro.medium.com/max/781/1*ninBE6iYHSbeHy5y3MxiOg.png)
 
