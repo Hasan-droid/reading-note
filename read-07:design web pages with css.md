@@ -77,6 +77,24 @@ these properties to as many elements (and results in simpler style sheets).
 
 >You can compare this with **the background-color or border properties;** they are **not inherited** by child elements
 
+
+ ## Before lanush any website
+ > it is important to test it in more than one browser, because there
+can be slight differences in how browsers display the pages.
+>You do not need lots of computers to test your site, as there are online tools to show you what a page looks like in multiple browsers:
+
+> *BrowserCam.com
+BrowserLab.Adobe.com
+BrowserShots.org
+CrossBrowserTesting.com *
+
+>If you come across a CSS bug, you can use your favorite search
+engine to try and find a solution. Or you can check these sites:
+*PositionIsEverything.net
+QuirksMode.org*
+
+>When a CSS property does not display as expected, it is generally referred to as a **browser quirk** or **CSS bug.**
+
 # colors
 1. **foreGround Colors**
 2.**background Colors**
@@ -84,6 +102,60 @@ these properties to as many elements (and results in simpler style sheets).
  1.**RGB values**
  2.**HEX Codee**
  3.**Color Names**
- 4.**Hue **
- 5.** Saturation**
- 6.** Brightness**
+
+
+
+ 
+
+## Contrast
+> When picking foreground and background colors, it is important to ensure that there is enough contrast for the text to be legible.
+>**A lack of contrast is particularly a problem for those with
+visual impairments and color blindness**
+>*It also affects those with poor monitors and sunlight on their
+screens*
+>For long spans of text, reducing the contrast a little bit improves
+readability.
+>You can reduce contrast by using **dark gray text on a white background** or an **off-white text on a dark background.**
+
+## Css3 Opacity , rgba
+** opacity value have to be between 1.0 and 0.0
+> 0 (so a value of 0.5 is 50% opacity and 0.15 is 15% opacity).
+
+> adds a fourth value to rgba to indicates opacity. This value is
+known as an alpha value and is a number between 0.0 and 1.0
+
+>The
+rgba value will only affect the element on which it is applied
+**(not child elements).**
+
+## differenance between lightness and Brightness
+>Please note that lightness is a different concept to brightness.
+Graphic design software (such as Photoshop and GIMP) have
+color pickers that use hue, saturation, and brightness —
+but brightness only adds black, whereas lightness offers both
+white and black.
+
+## Css3 HSL , HSLA 
+body {
+background-color: #C8C8C8;
+**background-color: hsl(0,0%,78%);**}
+p {
+background-color: #ffffff;
+**background-color: hsla(0,100%,100%,0.5);**}
+1.**Hue**:
+> This is expressed as an angle
+(between 0 and 360 degrees).
+
+2.**saturation** :
+>This is expressed as a percentage.
+
+3.**lightness**:
+>This is expressed as a percentage with 0% being white, 50% being normal, and 100% being black. 
+>*fourth value which represents transparency (just like the rgba property)*
+
+4.**alpha**
+>This is expressed as a number between 0 and 1.0.For example, 0.5 represents 50% transparency, and 0.75 represents 75% transparency.
+
+>Because older browsers do not recognize HSL and HSLA values, it is a good idea to add an extra rule which specifies the color using a hex code, RGB value, or color name.
+
+
