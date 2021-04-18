@@ -9,3 +9,4 @@ fresh graduated student , 23 years old and have a bachoulr degree of internet Te
 | read-me3   | [html structure](https://hasan-droid.github.io/reading-note/read-me3)        |
 | read-04   | [java script](https://hasan-droid.github.io/reading-note/read04)        |
 | read-04b   | [what is a computer](https://hasan-droid.github.io/reading-note/read04b)        |
+| read-06   | [programming with java script](https://replit.com/@Hasan1122/reading-note-1#read-06:prgramming.md)        |
